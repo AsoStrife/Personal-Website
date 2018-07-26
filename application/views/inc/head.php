@@ -18,25 +18,25 @@
     <!--Facebook OpenGraph-->
     <meta property="fb:app_id" content="2210608369160877" />
     <meta property="og:type" content="profile" />
-    <meta property="og:url" content="http://dev.andreacorriga.com" />
+    <meta property="og:url" content="<?=base_url();?>" />
     <meta property="og:title" content="Andrea Corriga (@AsoStrife)" />
-    <meta property="og:image" content="http://dev.andreacorriga.com/img/profile-image-200x200.png" />
+    <meta property="og:image" content="<?=base_url('img/profile-image-200x200.png');?>" />
     <meta property="og:description" content="Personal Website of Andrea Corriga (@AsoStrife). Master Graduate Student and Software Developer." />
 
     <!-- favicon -->
-	<link rel="icon" href="http://dev.andreacorriga.com/img/favicon/favicon.png">
-	<link rel="apple-touch-icon" href="http://dev.andreacorriga.com/img/favicon/favicon.png" sizes="72x72" />
-	<link rel="apple-touch-icon" href="http://dev.andreacorriga.com/img/favicon/favicon.png" sizes="114x114" />
-	<link rel="icon" href="http://dev.andreacorriga.com/img/favicon/favicon.png" />
-	<link rel="shortcut icon" href="http://dev.andreacorriga.com/img/favicon/favicon.png" />
-	<link rel="image_src" href="http://dev.andreacorriga.com/img/profile-image.png" />
+	<link rel="icon" href="<?=base_url('img/favicon/favicon.png');?>">
+	<link rel="apple-touch-icon" href="<?=base_url('img/favicon/favicon.png');?>" sizes="72x72" />
+	<link rel="apple-touch-icon" href="<?=base_url('img/favicon/favicon.png');?>" sizes="114x114" />
+	<link rel="icon" href="<?=base_url('img/favicon/favicon.png');?>" />
+	<link rel="shortcut icon" href="<?=base_url('img/favicon/favicon.png');?>" />
+	<link rel="image_src" href="<?=base_url('img/profile-image.png');?>" />
 
 	<!-- Font -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<!-- FontAwesome JS-->
-	<script type="text/javascript" src="js/fontawesome-all.min.js"></script>
+	<script type="text/javascript" src="<?=base_url('js/fontawesome-all.min.js');?>"></script>
 	<!-- Global CSS -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">   
-	<link id="theme-style" rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="<?=base_url('css/bootstrap.min.css');?>">
+	<link id="theme-style" rel="stylesheet" href="<?=base_url('css/custom.css');?>">
 </head> 
 

@@ -13,6 +13,7 @@
 				<li class="list-inline-item"><a href="https://instagram.com/AsoStrife" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
 				<li class="list-inline-item"><a href="https://github.com/AsoStrife" target="_blank"><i class="fab fa-github-alt" aria-hidden="true"></i></a></li>
 				<li class="list-inline-item"><a href="https://goo.gl/ub5sBV" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+				<li class="list-inline-item"><a href="https://t.me/AsoStrife" target="_blank"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>
 			</ul><!--//social-->
 		</div><!--//top-bar-->
 

@@ -7,13 +7,13 @@
 	</footer>
 	
 	<!-- Javascript -->		  
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>  
-	<script type="text/javascript" src="js/back-to-top.js"></script>
-	<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script> 
+	<script type="text/javascript" src="<?=base_url('js/jquery-3.3.1.min.js');?>"></script>
+	<script type="text/javascript" src="<?=base_url('js/bootstrap.min.js');?>"></script>  
+	<script type="text/javascript" src="<?=base_url('js/back-to-top.js');?>"></script>
+	<script type="text/javascript" src="<?=base_url('js/jquery.scrollTo.min.js');?>"></script> 
 
 	<!-- custom js -->
-	<script type="text/javascript" src="js/main.js"></script>  
+	<script type="text/javascript" src="<?=base_url('js/main.js');?>"></script>  
    
 
 </body>
