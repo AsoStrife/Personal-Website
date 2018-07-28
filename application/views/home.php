@@ -8,6 +8,18 @@
 		<!-- Bio -->
 		<section id="experiences-section" class="experiences-section section">
 			<h1 class="section-title">About me</h1>
+
+			<div class="row">
+				<div class="item col-md-12">
+					<p> Hello World! Welcome to my personal page. <br> I'm Andrea Corriga (obviously) currently live in Assemini (CA), Italy. </p>
+					<p> I work in Web Development, front-end and back-end.</p>
+					<p> I've tried to make my first website at 8 years old with poor results, it was a terrible Pokémon website with one background image (repeated x-y) and a simple text "Benvenuti sul più grande sito di pokemon del mondo!!" translated: "Welcome on the best pokemon website on the world!!" made with FrontPage 2003! Good times :) </p>
+					<p> Currently my focus is Javascript with Framework7  ut before that I've worked on Web development with CodeIgniter Framework. </p>
+			
+					<p> When I'm not working I like to play guitar (rock and metal), go to cinema and collect Blu-ray films. Currently I have 85 Blu-ray and 10 DVD </p>
+					<p> <i> Thanks for visit my portfolio page. </i> </p>
+				</div>
+			</div>
 		</section>
 
 		<!-- Work Experiences -->
@@ -45,7 +57,10 @@
 							<h3 class="degree"> <?=$edu->graduate;?> </h3>
 							<div class="education-body"> <?=$edu->school;?> </div> 
 							<div class="time"> <?=$edu->duration;?> </div>
-							<div class="desc"> <?=$edu->description;?> <p>(<?=$edu->vote;?>/<?=$edu->vote_max;?>) </p> </div>
+							<div class="desc"> 
+								<?=$edu->description;?> 
+								<? if($edu->vote != null): ?> <p> (<?=$edu->vote;?>/<?=$edu->vote_max;?>) <? endif; ?> </p> 
+							</div>
 						</div><!--//item-inner-->
 					</div><!--//item-->
 				<? endforeach; ?>

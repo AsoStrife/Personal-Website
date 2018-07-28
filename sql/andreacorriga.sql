@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Lug 28, 2018 alle 16:41
+-- Creato il: Lug 28, 2018 alle 16:55
 -- Versione del server: 10.1.31-MariaDB
 -- Versione PHP: 7.2.3
 
@@ -34,8 +34,8 @@ CREATE TABLE `education` (
   `school` varchar(64) NOT NULL,
   `duration` varchar(32) NOT NULL,
   `description` text NOT NULL,
-  `vote` int(11) NOT NULL,
-  `vote_max` int(11) NOT NULL
+  `vote` int(11) DEFAULT NULL,
+  `vote_max` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -45,7 +45,9 @@ CREATE TABLE `education` (
 INSERT INTO `education` (`id`, `graduate`, `school`, `duration`, `description`, `vote`, `vote_max`) VALUES
 (1, 'High School Graduation', 'Technical Institute Michele Giua', '2007 - 2012', 'Design of computer systems, project management, business organization, development of web applications in PHP with MySQL database and web application development with Code Igniter Framework.', 83, 100),
 (2, 'Bachelor Degree', 'University of Cagliari', '2013 - 2016', 'Focused on: Programming languages, Operating System, Algorithms and Data Structures, Computer Networks, Microprocessor Architecture, Object Oriented Programming, Database, Software Engineering.', 109, 110),
-(3, 'Master\'s Degree', 'University of Cagliari', '2016 - 2018', 'Focused on: Image Analysis Processing, Cisco Certifications, Computer Vision, Big Data (Spark), Data Mining, Decision Science.', 100, 110);
+(3, 'Cisco CCNA 1', 'University of Cagliari', 'October 20, 2016', 'CCNA Routing and Switching: Introduction to Networks. ', NULL, 0),
+(4, 'Cisco CCNA 2', 'University of Cagliari', 'November 15, 2016', 'CCNA Routing and Switching: Routing and Switching Essentials', NULL, 0),
+(5, 'Master\'s Degree', 'University of Cagliari', '2016 - 2018', 'Focused on: Image Analysis Processing, Cisco Certifications, Computer Vision, Big Data (Spark), Data Mining, Decision Science.', 100, 110);
 
 -- --------------------------------------------------------
 
@@ -157,7 +159,7 @@ ALTER TABLE `work_experiences`
 -- AUTO_INCREMENT per la tabella `education`
 --
 ALTER TABLE `education`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT per la tabella `publications`
