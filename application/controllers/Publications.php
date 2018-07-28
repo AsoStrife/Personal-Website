@@ -3,6 +3,8 @@
 class Publications extends CI_Controller {
 
 	public function index(){
-		$this->load->view('publications');
+		$data['publications'] = $this->db->select('*')->from('publications')->get()->result();
+
+		$this->load->view('publications', $data);
 	}
 }

@@ -6,7 +6,7 @@
 	<div class="wrapper container">
 		<div class="wrapper container">
 		<section id="projects" class="projects-section section">
-			<h2 class="section-title">Projects</h2>
+			<h1 class="section-title">Projects</h1>
 
 		</section><!--//section-->
 		</div><!--//wrapper-->

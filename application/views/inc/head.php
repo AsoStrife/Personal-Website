@@ -8,27 +8,27 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="Andrea Corriga (@AsoStrife)">	
-	<meta name="keywords" lang="en" content="">
-	<meta name="robots" content="index,follow" />
-	<meta name="language" content="en" />
-    <meta name="rating" content="general" />
+	<meta name="description" content="<?=$this->andreacorriga->get('main', 'description');?>">
+	<meta name="author" content="<?=$this->andreacorriga->get('main', 'author');?>">	
+	<meta name="keywords" lang="<?=$this->andreacorriga->get('main', 'language');?>" content="<?=$this->andreacorriga->get('main', 'keywords');?>">
+	<meta name="robots" content="<?=$this->andreacorriga->get('main', 'robots');?>" />
+	<meta name="language" content="<?=$this->andreacorriga->get('main', 'language');?>" />
+    <meta name="rating" content="<?=$this->andreacorriga->get('main', 'rating');?>" />
 
     <!--Facebook OpenGraph-->
-    <meta property="fb:app_id" content="2210608369160877" />
-    <meta property="og:type" content="profile" />
-    <meta property="og:url" content="<?=base_url();?>" />
-    <meta property="og:title" content="Andrea Corriga (@AsoStrife)" />
-    <meta property="og:image" content="<?=base_url('img/profile/profile-image-200x200.png');?>" />
-    <meta property="og:description" content="." />
+    <meta property="fb:app_id" content="<?=$this->andreacorriga->get('facebook_open_graph', 'app_id');?>" />
+    <meta property="og:type" content="<?=$this->andreacorriga->get('facebook_open_graph', 'type');?>" />
+    <meta property="og:url" content="<?=$this->andreacorriga->get('facebook_open_graph', 'url');?>" />
+    <meta property="og:title" content="<?=$this->andreacorriga->get('facebook_open_graph', 'title');?>" />
+    <meta property="og:image" content="<?=$this->andreacorriga->get('facebook_open_graph', 'image');?>" />
+    <meta property="og:description" content="<?=$this->andreacorriga->get('facebook_open_graph', 'description');?>" />
 
     <!-- favicon -->
-	<link rel="icon" href="<?=base_url('img/favicon/favicon.png');?>">
-	<link rel="apple-touch-icon" href="<?=base_url('img/favicon/favicon-72x72.png');?>" sizes="72x72" />
-	<link rel="apple-touch-icon" href="<?=base_url('img/favicon/favicon-114x114.png');?>" sizes="114x114" />
-	<link rel="shortcut icon" href="<?=base_url('img/favicon/favicon.png');?>" />
-	<link rel="image_src" href="<?=base_url('img/profile/profile-image.png');?>" />
+	<link rel="icon" href="<?=$this->andreacorriga->get('img', 'favicon');?>">
+	<link rel="apple-touch-icon" href="<?=$this->andreacorriga->get('img', 'favicon_72x72');?>" sizes="72x72" />
+	<link rel="apple-touch-icon" href="<?=$this->andreacorriga->get('img', 'favicon_114x114');?>" sizes="114x114" />
+	<link rel="shortcut icon" href="<?=$this->andreacorriga->get('img', 'favicon');?>" />
+	<link rel="image_src" href="<?=$this->andreacorriga->get('img', 'profile');?>" />
 
 	<!-- Font -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
