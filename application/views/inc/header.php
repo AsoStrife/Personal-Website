@@ -8,19 +8,19 @@
 				<!--<a class="btn" href="#"><i class="fas fa-download" aria-hidden="true"></i> Curriculum Vitae </a>-->
 			</div><!--//actions-->
 			<ul class="social list-inline">
-				<li class="list-inline-item"><a href="https://facebook.com/AsoStrife" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-				<li class="list-inline-item"><a href="https://twitter.com/AsoStrife" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-				<li class="list-inline-item"><a href="https://instagram.com/AsoStrife" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-				<li class="list-inline-item"><a href="https://github.com/AsoStrife" target="_blank"><i class="fab fa-github-alt" aria-hidden="true"></i></a></li>
-				<li class="list-inline-item"><a href="https://goo.gl/ub5sBV" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-				<li class="list-inline-item"><a href="https://t.me/AsoStrife" target="_blank"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>
+				<li class="list-inline-item"><a href="" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+				<li class="list-inline-item"><a href="" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+				<li class="list-inline-item"><a href="" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+				<li class="list-inline-item"><a href="" target="_blank"><i class="fab fa-github-alt" aria-hidden="true"></i></a></li>
+				<li class="list-inline-item"><a href="" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+				<li class="list-inline-item"><a href="" target="_blank"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>
 			</ul><!--//social-->
 		</div><!--//top-bar-->
 
 		<div class="intro">
 			<div class="container text-center">
-				<img class="profile-image" src="img/profile-image.png" alt="Andrea Corriga photo">
-				<h1 class="name">Andrea Corriga</h1>
+				<img class="profile-image" src="img/profile/profile-image.png" alt="Andrea Corriga photo">
+				<h1 class="name"> Andrea Corriga </h1>
 				<div class="title"> Master Graduate Student &amp; Software Developer </div>
 				<!-- <div class="profile"> </div> profile-->
 			</div><!--//container-->

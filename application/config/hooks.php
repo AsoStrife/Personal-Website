@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 if($_SERVER['HTTP_HOST'] != "localhost"){
-	$hook['pre_controller_constructor'][] = array(
+	$hook['post_controller_constructor'][] = array(
 									'function' => 'redirect_ssl',
 									'filename' => 'ssl.php',
 									'filepath' => 'hooks'

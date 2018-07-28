@@ -127,7 +127,7 @@
 		<section id="contact-section" class="contact-section section">
 			<h2 class="section-title">Get in Touch</h2>
 			<div class="intro">
-				<img class="profile-image" src="img/profile-image.png" alt="Andrea Corriga photo">
+				<img class="profile-image" src="img/profile/profile-image.png" alt="Andrea Corriga photo">
 				<div class="dialog">
 					<p>I'm currently taking on freelance work. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
 					<p><strong>I can help with the following:</strong></p>
