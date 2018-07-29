@@ -3,7 +3,7 @@
 $ci =& get_instance();
 $ci->load->helper('url'); 
 
-// Main
+// Main & general info
 $config['main'] = array(
 			'name' 		=> 'Andrea',
 			'surname'	=> 'Corriga',
@@ -20,6 +20,7 @@ $config['main'] = array(
 			'rating' 	=> 'general'
 		);
 
+// Images
 $config['img'] = array(
 	'profile'		 	=> base_url('img/profile/profile-image.png'),
 	'profile_200x200' 	=> base_url('img/profile/profile-image-200x200.png'),
@@ -28,6 +29,7 @@ $config['img'] = array(
 	'favicon_114x114' 	=> base_url('img/favicon/favicon-114x114.png')
 );
 
+// Social links
 $config['social'] = array(
 				'facebook' 	=> 'https://facebook.com/AsoStrife',
 				'twitter' 	=> 'https://twitter.com/AsoStrife', 
@@ -37,6 +39,7 @@ $config['social'] = array(
 				'telegram' 	=> 'https://t.me/AsoStrife'
 			);
 
+// Facebook Open Graph
 $config['facebook_open_graph'] = array(
 						'app_id' 		=> '2210608369160877',
 						'type' 			=> 'profile',
