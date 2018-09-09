@@ -5,7 +5,7 @@
 		<div class="top-bar container-fluid">
 			<div class="actions">
 				<a class="btn d-none d-md-inline-block" href="<?=$this->andreacorriga->get('social', 'telegram');?>"><i class="fas fa-paper-plane" aria-hidden="true"></i> Telegram</a>
-				<!--<a class="btn" href="#"><i class="fas fa-download" aria-hidden="true"></i> Curriculum Vitae </a>-->
+				<a class="btn" href="https://cv.andreacorriga.com"><i class="fas fa-download" aria-hidden="true"></i> Curriculum Vitae </a>
 			</div><!--//actions-->
 			<ul class="social list-inline">
 				<li class="list-inline-item"><a href="<?=$this->andreacorriga->get('social', 'facebook');?>" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
