@@ -30,7 +30,7 @@
 			<div class="container text-center">
 				<ul class="list-inline">
 					<li class="email list-inline-item"><i class="fas fa-envelope"></i><a href="mailto:<?=$this->andreacorriga->get('main', 'email');?>"> <?=$this->andreacorriga->get('main', 'email');?></a></li>
-					<li class="website list-inline-item"><i class="fas fa-globe"></i><a href="#" target="_blank"> @<?=$this->andreacorriga->get('main', 'username');?> </a></li>
+					<li class="website list-inline-item"><i class="fas fa-globe"></i> @<?=$this->andreacorriga->get('main', 'username');?> </li>
 				</ul>
 			</div><!--//container-->
 		</div><!--//contact-info-->
