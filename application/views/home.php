@@ -30,7 +30,8 @@
 				<? foreach($work_experiences as $we): ?>
 					<div class="item">
 						<div class="work-place">
-							<h3 class="place"> <?=$we->job_name;?> </h3>
+							<h3 class="place" style="margin-bottom:0;"> <?=$we->job_name;?> </h3>
+							<h4 class="place"> <small> <?=$we->society;?> </small> </h4>
 							<div class="location d-none d-sm-block"><i class="fas fa-map-marker-alt mr-1"></i> <?=$we->location;?> </div>
 						</div>
 						<div class="job-meta">

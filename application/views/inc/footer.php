@@ -2,7 +2,7 @@
 	
 	<footer class="footer text-center">
 		<div class="container">
-			<small class="copyright">Andrea Corriga (@Asostrife) &bull; <a href="<?=base_url('privacy_policy');?>"> Privacy Policy </a> </small>
+			<small class="copyright">Andrea Corriga (@Asostrife) &bull; <a href="<?=base_url('Privacy_Policy');?>"> Privacy Policy </a> </small>
 		</div><!--//container-->
 	</footer>
 	

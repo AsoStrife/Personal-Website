@@ -15,7 +15,7 @@
 						</div>
 						<div class="job-desc">
 							<p><?=$publication->description;?></p> 
-							<div> <a href="http://ceur-ws.org/Vol-2111/" target="_blank"> <?=$publication->link;?></a> </div>
+							<div> <a href="<?=$publication->url;?>" target="_blank"> <?=$publication->url;?></a> </div>
 							<div> <?=$publication->string_date;?> </div>
 						</div><!--//job-desc-->
 					</div><!--//item-->

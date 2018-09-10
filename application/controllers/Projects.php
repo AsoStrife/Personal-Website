@@ -3,6 +3,8 @@
 class Projects extends CI_Controller {
 
 	public function index(){
-		$this->load->view('projects');
+		$data['projects'] = $this->db->select('*')->from('projects')->get()->result();
+
+		$this->load->view('projects', $data);
 	}
 }
