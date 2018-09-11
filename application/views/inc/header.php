@@ -35,15 +35,35 @@
 			</div><!--//container-->
 		</div><!--//contact-info-->
 		
-		<div class="page-nav-space-holder d-none d-md-block">
+		<!-- ./ old classes: d-none d-md-block -->
+		<div class="page-nav-space-holder">
 			<div id="page-nav-wrapper" class="page-nav-wrapper text-center">
-				<div class="container">
+
+				<div class="container d-none d-xl-block d-lg-block d-md-block">
 					<ul id="page-nav" class="nav page-nav list-inline">
 						<li class="nav-item"><a class="nav-link" href="<?=base_url();?>">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?=base_url('works');?>">Work Experiences</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?=base_url('education');?>">Education</a></li>
 						<li class="nav-item"><a class="nav-link" href="<?=base_url('publications');?>">Publications</a></li>
 						<li class="nav-item"><a class="nav-link" href="<?=base_url('projects');?>">Projects</a></li>
 					</ul><!--//page-nav-->
 				</div>
+
+			<nav class="navbar navbar-expand-lg navbar-dark d-block d-sm-none d-sm-block d-md-none">
+				<a class="navbar-brand" href="#"></a>
+				<button class="btn d-md-inline-block btn-block" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>  Show Menu
+				</button>
+				<div class="collapse navbar-collapse" id="navbarText">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item"><a class="nav-link" href="<?=base_url();?>">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?=base_url('works');?>">Work Experiences</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?=base_url('education');?>">Education</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?=base_url('publications');?>">Publications</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?=base_url('projects');?>">Projects</a></li>
+					</ul>
+				</div>
+			</nav>
 			</div><!--//page-nav-wrapper-->
 		</div>
 	</header><!--//header-->
