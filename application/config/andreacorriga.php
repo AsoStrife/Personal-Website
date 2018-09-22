@@ -36,7 +36,8 @@ $config['social'] = array(
 				'instagram' => 'https://instagram.com/AsoStrife',
 				'github' 	=> 'https://github.com/AsoStrife',
 				'linkedin' 	=> 'https://www.linkedin.com/in/andrea-corriga-20254465/',
-				'telegram' 	=> 'https://t.me/AsoStrife'
+				'telegram' 	=> 'https://t.me/AsoStrife',
+				'twitch' 	=> 'https://www.twitch.tv/asostrife'
 			);
 
 // Facebook Open Graph

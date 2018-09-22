@@ -14,6 +14,7 @@
 				<li class="list-inline-item"><a href="<?=$this->andreacorriga->get('social', 'github');?>" target="_blank"><i class="fab fa-github-alt" aria-hidden="true"></i></a></li>
 				<li class="list-inline-item"><a href="<?=$this->andreacorriga->get('social', 'linkedin');?>" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
 				<li class="list-inline-item"><a href="<?=$this->andreacorriga->get('social', 'telegram');?>" target="_blank"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>
+				<li class="list-inline-item"><a href="<?=$this->andreacorriga->get('social', 'twitch');?>" target="_blank"><i class="fab fa-twitch" aria-hidden="true"></i></a></li>
 			</ul><!--//social-->
 		</div><!--//top-bar-->
 
@@ -26,7 +27,7 @@
 			</div><!--//container-->
 		</div><!--//intro-->
 
-		<div class="contact-info">
+		<div class="contact-info d-none d-md-block">
 			<div class="container text-center">
 				<ul class="list-inline">
 					<li class="email list-inline-item"><i class="fas fa-envelope"></i><a href="mailto:<?=$this->andreacorriga->get('main', 'email');?>"> <?=$this->andreacorriga->get('main', 'email');?></a></li>
@@ -49,21 +50,21 @@
 					</ul><!--//page-nav-->
 				</div>
 
-			<nav class="navbar navbar-expand-lg navbar-dark d-block d-sm-none d-sm-block d-md-none">
-				<a class="navbar-brand" href="#"></a>
-				<button class="btn d-md-inline-block btn-block" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>  Show Menu
-				</button>
-				<div class="collapse navbar-collapse" id="navbarText">
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item"><a class="nav-link" href="<?=base_url();?>">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?=base_url('works');?>">Work Experiences</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?=base_url('education');?>">Education</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?=base_url('publications');?>">Publications</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?=base_url('projects');?>">Projects</a></li>
-					</ul>
-				</div>
-			</nav>
+				<nav class="navbar navbar-expand-lg navbar-dark d-block d-sm-none d-sm-block d-md-none">
+					<a class="navbar-brand" href="#"></a>
+					<button class="btn d-md-inline-block btn-block" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>  Show Menu
+					</button>
+					<div class="collapse navbar-collapse" id="navbarText">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item"><a class="nav-link" href="<?=base_url();?>">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?=base_url('works');?>">Work Experiences</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?=base_url('education');?>">Education</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?=base_url('publications');?>">Publications</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?=base_url('projects');?>">Projects</a></li>
+						</ul>
+					</div>
+				</nav>
 			</div><!--//page-nav-wrapper-->
 		</div>
 	</header><!--//header-->
