@@ -20,7 +20,7 @@
 
 		<div class="intro">
 			<div class="container text-center">
-				<img class="profile-image" src="img/profile/profile-image.png" alt="Andrea Corriga photo" title="andrea-corriga-img-profile">
+				<img class="profile-image" src="/img/profile/profile-image.png" alt="Andrea Corriga photo" title="andrea-corriga-img-profile">
 				<h1 class="name"> <?=$this->andreacorriga->get('main', 'full_name');?> </h1>
 				<div class="title"> <?=$this->andreacorriga->get('main', 'slogan');?> </div>
 				<!-- <div class="profile"> </div> profile-->
@@ -47,6 +47,8 @@
 						<li class="nav-item"><a class="nav-link" href="<?=base_url('education');?>">Education</a></li>
 						<li class="nav-item"><a class="nav-link" href="<?=base_url('publications');?>">Publications</a></li>
 						<li class="nav-item"><a class="nav-link" href="<?=base_url('projects');?>">Projects</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?=base_url('social/twitch');?>">Live Twitch</a></li>
+
 					</ul><!--//page-nav-->
 				</div>
 
@@ -62,6 +64,7 @@
 							<li class="nav-item"><a class="nav-link" href="<?=base_url('education');?>">Education</a></li>
 							<li class="nav-item"><a class="nav-link" href="<?=base_url('publications');?>">Publications</a></li>
 							<li class="nav-item"><a class="nav-link" href="<?=base_url('projects');?>">Projects</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?=base_url('social/twitch');?>">Live Twitch</a></li>
 						</ul>
 					</div>
 				</nav>

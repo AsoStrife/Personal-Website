@@ -32,4 +32,22 @@ class AndreaCorriga {
 		else
 			return null;
 	}
+
+	/**
+	 *
+	 **/
+	public function get_title(){
+
+		if($this->ci->uri->segment(1) == false){
+			return $this->get('main', 'main_title');
+		}
+		else{
+			if($this->ci->uri->segment(1) == "social" && $this->ci->uri->segment(2) == "twitch")
+				return "Live Twitch" . $this->get('main', 'second_title');
+			elseif($this->ci->uri->segment(1) == "works")
+				return "Work Experiences" . $this->get('main', 'second_title');
+			else
+				return ucfirst($this->ci->uri->segment(1)) . $this->get('main', 'second_title');
+		}
+	}
 }

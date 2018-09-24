@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<title> <?=$this->andreacorriga->get('main', 'title');?> </title>
+	<title> <?=$this->andreacorriga->get_title();?> </title>
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
