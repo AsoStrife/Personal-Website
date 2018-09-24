@@ -11,18 +11,21 @@
 
 			<div class="row">
 				<div class="item col-lg-9 col-md-12">
-					<p> Hello World! Welcome to my personal page. <br> I'm Andrea Corriga (obviously) currently live in Assemini (CA), Italy. </p>
-					<p> I work in Web Development, front-end and back-end.</p>
-					<p> I've tried to make my first website at 8 years old with poor results, it was a terrible Pokémon website with one background image (repeated x-y) and a simple text "Benvenuti sul più grande sito di pokemon del mondo!!" translated: "Welcome on the best pokemon website on the world!!" made with FrontPage 2003! Good times :) </p>
-					<p> Currently my focus is Javascript with Framework7  ut before that I've worked on Web development with CodeIgniter Framework. </p>
+					<p> Hello World! Welcome to my personal page. <br> I'm <strong>Andrea Corriga</strong> (obviously) currently live in Assemini (CA), Italy. </p>
+					<p> I'm a <strong>Master Graduate</strong> in Computer Science, Troll, Unpopular Streamer, Developer and a <u>Total Fucking Looser</u>. I like to work in Web Development, back-end mostly. You can find me on every social/game with the username <strong>AsoStrife</strong>.</p>
+					<p> I've tried to make my first website at 8 years old with poor results, it was a terrible Pokémon website with one background image (repeated x-y) and a simple text <i>"Benvenuti sul più grande sito di pokemon del mondo!!"</i> translated: "Welcome on the best pokemon website on the world!!" made with FrontPage 2003. <br> 
+					When I was 16 years old I've made <strong><a href="http://ffstory.andreacorriga.com" target="_blank">FFStory.it</a> </strong> an Italian Community of Final Fantasy and Kingdom Hearst. I've reuploaded the site just for fun.
+					</p>
+					<p> Currently my focus is Javascript with <strong>Framework7</strong> but before that I've worked on Web development with CodeIgniter Framework. </p>
 			
-					<p> When I'm not working I like to play guitar (rock and metal), go to cinema and collect Blu-ray films. Currently I have 85 Blu-ray and 10 DVD </p>
+					<p> I like to play guitar, play with my Xbox One X and Ps4, go to cinema and collect Blu-ray films. Currently I have more than 100 Blu-ray and 10 DVD. Check my <strong> <a href="<?=$this->andreacorriga->get('social', 'twitch');?>" target="_blank" alt="twitch-link"> Twitch</a></strong> to see my streams.</p>
 					
+
 					<p><strong>I can help with the following:</strong></p>
 					<ul class="list-unstyled service-list">
-						<li><i class="fas fa-check" aria-hidden="true"></i> Back-End Development with PHP (Codeigniter), Java or Python</li>
+						<li><i class="fas fa-check" aria-hidden="true"></i> Back-End Development with PHP <strong>(Codeigniter)</strong> </li>
 						<li><i class="fas fa-check" aria-hidden="true"></i> Front-End Development with Bootstrap &amp; Javascript</li>
-						<li><i class="fas fa-check" aria-hidden="true"></i> Multiplatform App with Framework 7 </li>
+						<li><i class="fas fa-check" aria-hidden="true"></i> Cross-Platform App with <strong>Framework 7</strong> </li>
 						<li><i class="fas fa-check" aria-hidden="true"></i> Telegram Bot </li>
 					</ul>
 					<p>Drop me a line at <a href="mailto:<?=$this->andreacorriga->get('main', 'email');?>"> <?=$this->andreacorriga->get('main', 'email');?> </a></p>
@@ -37,7 +40,7 @@
 					</ul><!--//social-->
 				</div> <!-- ./ item col -md-12 -->
 				<div class="item col-lg-3 d-none d-lg-block">
-					<img src="/img/profile/profile-image-asostrife-small.png" class="img-fluid">
+					<img src="/img/profile/profile-image-asostrife-small.png" class="img-fluid" alt="andrea-corriga-asostrife-paint" title="andrea-corriga-asostrife-paint">
 				</div>
 			</div> <!-- ./ row -->
 

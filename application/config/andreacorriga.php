@@ -10,12 +10,12 @@ $config['main'] = array(
 			'full_name'	=> 'Andrea Corriga',
 			'username'	=> 'AsoStrife',
 			'slogan'	=> 'Master Graduate Student &amp; Software Developer', 
-			'title'		=> 'Andrea Corriga (@AsoStrife) &bull; Master Graduate Student and Software Developer', 
+			'title'		=> 'Andrea Corriga (@AsoStrife) &bull; Master Graduate Student and Developer', 
 			'author'	=> 'Andrea Corriga (@AsoStrife)',
 			'email'		=> 'me@andreacorriga.com',
-			'description' => 'Personal Website of Andrea Corriga (@AsoStrife). Master Graduate Student and Software Developer. Check my portfolio, my personal project an other stuff',
-			'keywords' 	=> 'Andrea, Corriga, Aso, AsoStrife, Cloud, CloudAso, Microsoft Student Partner, MSP, Portfolio, Personal Website, Webmaster, Web, Developer, PHP, Javascript, Python',
-			'robots' 	=> 'noindex, nofollow',
+			'description' => 'Hello World, I\'m Andrea Corriga (@AsoStrife) and this is my personal website. I\'m a Master Graduate Student and Software Developer. In this website you can find my personal projects, publications, my social profile and other stuffs',
+			'keywords' 	=> 'Andrea, Corriga, Aso, AsoStrife, Cloud, CloudAso, Microsoft, Student, Partner, MSP, Portfolio, Personal Website, Webmaster, Web, Developer, PHP, Javascript, Python, Streamer, Twitch, University, Master, Graduate, Computer Science, Coding',
+			'robots' 	=> 'index, follow',
 			'language' 	=> 'en',
 			'rating' 	=> 'general'
 		);

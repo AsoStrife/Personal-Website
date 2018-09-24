@@ -15,6 +15,8 @@
 	<meta name="language" content="<?=$this->andreacorriga->get('main', 'language');?>" />
     <meta name="rating" content="<?=$this->andreacorriga->get('main', 'rating');?>" />
 
+    <link rel="sitemap" href="/sitemap.xml" type="application/xml" />
+
     <!--Facebook OpenGraph-->
     <meta property="fb:app_id" content="<?=$this->andreacorriga->get('facebook_open_graph', 'app_id');?>" />
     <meta property="og:type" content="<?=$this->andreacorriga->get('facebook_open_graph', 'type');?>" />
