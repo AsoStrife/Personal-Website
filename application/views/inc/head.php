@@ -21,7 +21,7 @@
     <meta property="fb:app_id" content="<?=$this->andreacorriga->get('facebook_open_graph', 'app_id');?>" />
     <meta property="og:type" content="<?=$this->andreacorriga->get('facebook_open_graph', 'type');?>" />
     <meta property="og:url" content="<?=$this->andreacorriga->get('facebook_open_graph', 'url');?>" />
-    <meta property="og:title" content="<?=$this->andreacorriga->get('facebook_open_graph', 'title');?>" />
+    <meta property="og:title" content="<?=$this->andreacorriga->get_title();?>" />
     <meta property="og:image" content="<?=$this->andreacorriga->get('facebook_open_graph', 'image');?>" />
     <meta property="og:description" content="<?=$this->andreacorriga->get('facebook_open_graph', 'description');?>" />
 

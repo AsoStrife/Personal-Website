@@ -45,8 +45,8 @@ $config['social'] = array(
 $config['facebook_open_graph'] = array(
 						'app_id' 		=> '2210608369160877',
 						'type' 			=> 'profile',
-						'url'			=> base_url(),
-						'title' 		=> $config['main']['author'],
+						'url'			=> base_url(uri_string()),
+						//'title' 		=> $config['main']['main_title'],
 						'image' 		=> $config['img']['profile_200x200'],
 						'description' 	=> $config['main']['description']
 					);
