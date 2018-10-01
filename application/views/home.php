@@ -40,7 +40,7 @@
 					</ul><!--//social-->
 				</div> <!-- ./ item col -md-12 -->
 				<div class="item col-lg-3 d-none d-lg-block">
-					<img src="/img/profile/profile-image-asostrife-small.png" class="img-fluid" alt="andrea-corriga-asostrife-paint" title="andrea-corriga-asostrife-paint">
+					<img src="<?=$this->andreacorriga->get('img', 'profile_chocobo');?>" class="img-fluid" alt="andrea-corriga-asostrife-paint" title="andrea-corriga-asostrife-paint">
 				</div>
 			</div> <!-- ./ row -->
 

@@ -20,7 +20,7 @@
 
 		<div class="intro">
 			<div class="container text-center">
-				<img class="profile-image" src="/img/profile/profile-image.png" alt="Andrea Corriga photo" title="andrea-corriga-img-profile">
+				<img class="profile-image rounded-circle" src="<?=$this->andreacorriga->get('img', 'profile');?>" alt="Andrea Corriga photo" title="andrea-corriga-img-profile">
 				<h1 class="name"> <?=$this->andreacorriga->get('main', 'full_name');?> </h1>
 				<div class="title"> <?=$this->andreacorriga->get('main', 'slogan');?> </div>
 				<!-- <div class="profile"> </div> profile-->

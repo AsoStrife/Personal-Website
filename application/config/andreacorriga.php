@@ -23,11 +23,12 @@ $config['main'] = array(
 
 // Images
 $config['img'] = array(
-	'profile'		 	=> base_url('img/profile/profile-image.png'),
-	'profile_200x200' 	=> base_url('img/profile/profile-image-200x200.png'),
-	'favicon' 			=> base_url('img/favicon/favicon.png'),
-	'favicon_72x72' 	=> base_url('img/favicon/favicon-72x72.png'),
-	'favicon_114x114' 	=> base_url('img/favicon/favicon-114x114.png')
+	'profile'		 	=> base_url('/img/profile/andrea-corriga-asostrife-profile-image.png'),
+	'profile_200x200' 	=> base_url('/img/profile/andrea-corriga-asostrife-profile-image-200x200.png'),
+	'profile_chocobo' 	=> base_url('/img/profile/andrea-corriga-asostrife-chocobo-small.png'),
+	'favicon' 			=> base_url('/img/favicon/favicon.png'),
+	'favicon_72x72' 	=> base_url('/img/favicon/favicon-72x72.png'),
+	'favicon_114x114' 	=> base_url('/img/favicon/favicon-114x114.png')
 );
 
 // Social links
