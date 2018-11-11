@@ -34,6 +34,7 @@
 
 	<!-- Font -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
 	<!-- FontAwesome JS-->
 	<script type="text/javascript" src="<?=base_url('js/fontawesome-all.min.js');?>"></script>
 	<!-- Global CSS -->
