@@ -12,11 +12,11 @@
 			<div class="row">
 				<div class="item col-lg-9 col-md-12">
 					<p> Hello World! Welcome to my personal page. <br> I'm <strong>Andrea Corriga</strong> (obviously) currently live in Assemini (CA), Italy. </p>
-					<p> I'm a <strong>Master's Graduate</strong> in Computer Science, Troll, Unpopular Streamer, Developer and a <u>Total Fucking Loser</u>. I like to work in Web Development, back-end mostly. You can find me on every social/game with the username <strong>AsoStrife</strong>.</p>
+					<p> I'm a <strong>PhD Student</strong> in Computer Science, Troll, Unpopular Streamer, Developer and a <u>Total Fucking Loser</u>. I like to work in Web Development, back-end mostly. You can find me on every social/game with the username <strong>AsoStrife</strong>.</p>
 					<p> I've tried to make my first website at 8 years old with poor results, it was a terrible Pokémon website with one background image (repeated x-y) and a simple text <i>"Benvenuti sul più grande sito di pokemon del mondo!!"</i> translated: "Welcome on the best pokemon website on the world!!" made with FrontPage 2003. <br> 
 					When I was 16 years old I've made <strong><a href="http://ffstory.andreacorriga.com" target="_blank">FFStory.it</a> </strong> an Italian Community of Final Fantasy and Kingdom Hearst. I've reuploaded the site just for fun. (visit <a href="http://ffstory.andreacorriga.com" target="_blank" title="ffstory link">http://ffstory.andreacorriga.com </a>)
 					</p>
-					<p> Currently my focus is Javascript with <strong>Framework7</strong> but before that I've worked on Web development with CodeIgniter Framework. </p>
+					<p> Currently my focus is Javascript with <strong>Framework7</strong> because I'm working on <a href="https://unicapp.it" title="UnicApp Application" target="_blank">UnicApp</a> with <a href="https://cedoor.org/" title="Omar Desogus, a curious, stubborn and meticulous programmer" target="_blank"> <strong>Omar Desogus</strong></a>, but before that I've worked on Web development with CodeIgniter Framework.  </p>
 			
 					<p> I like to play guitar, play with my Xbox One X and Ps4, go to cinema and collect Blu-ray films. Currently I have more than 100 Blu-ray and 10 DVD. Check my <strong> <a href="<?=$this->andreacorriga->get('social', 'twitch');?>" target="_blank" alt="twitch-link"> Twitch</a></strong> to see my streams.</p>
 					
