@@ -39,7 +39,8 @@ $config['social'] = array(
 				'github' 	=> 'https://github.com/AsoStrife',
 				'linkedin' 	=> 'https://www.linkedin.com/in/andrea-corriga-20254465/',
 				'telegram' 	=> 'https://t.me/AsoStrife',
-				'twitch' 	=> 'https://www.twitch.tv/asostrife'
+				'twitch' 	=> 'https://www.twitch.tv/asostrife',
+				'amazon' 	=> 'https://www.amazon.it/hz/wishlist/ls/1WJMAAM7SOJQZ/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist'
 			);
 
 // Facebook Open Graph

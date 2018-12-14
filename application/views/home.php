@@ -37,6 +37,7 @@
 						<li class="list-inline-item"><a href="<?=$this->andreacorriga->get('social', 'linkedin');?>" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
 						<li class="list-inline-item"><a href="<?=$this->andreacorriga->get('social', 'telegram');?>" target="_blank"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>
 						<li class="list-inline-item"><a href="<?=$this->andreacorriga->get('social', 'twitch');?>" target="_blank"><i class="fab fa-twitch" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="<?=$this->andreacorriga->get('social', 'amazon');?>" target="_blank"><i class="fab fa-amazon" aria-hidden="true"></i></a></li>
 					</ul><!--//social-->
 				</div> <!-- ./ item col -md-12 -->
 				<div class="item col-lg-3 d-none d-lg-block">
